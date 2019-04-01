@@ -1,5 +1,7 @@
 
 import React from "react";
+
+//  The application should render different images (of your choice) to the screen. Each image should listen for click events.
 function handleItemClick (){
     console.log ("clicked");
 }
@@ -11,6 +13,8 @@ function GridItem(props) {
                 <img alt="loteria" src={props.src}/>
             </div>
         </div>
+// Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+// Once the user's score is reset after an incorrect guess, the game should restart.
         
     )
 }

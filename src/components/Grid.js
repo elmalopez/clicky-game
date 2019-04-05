@@ -8,6 +8,7 @@ var array1 = [{ id: 1, path: "images/elCotorro.jpg" }, { id: 2, path: "images/el
 function Grid(props) {
     return (
         <div>
+            asd
             <NavBar />
             <div className="container">
                 <div className="row">

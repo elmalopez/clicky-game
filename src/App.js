@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
         <Grid handleItemClick={this.handleItemClick} />
       </div>
     );

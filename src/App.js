@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Grid from './components/Grid.js';
-import NavBar from './components/NavBar.js';
+import NavBar from './components/NavBar'
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Navgit Bar /> */}
+        <NavBar />
         <Grid handleItemClick={this.handleItemClick} />
       </div>
     );

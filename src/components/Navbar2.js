@@ -14,15 +14,13 @@ const topScore = (3);
 
 const NavBar = function () {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <ul className="navbar-nav">
-                    <li className="navbar-brand"><a href="/">Clicky Game</a></li>
-                    <li className="nav-item">{userGuess}</li>
-                    <li>Score: {userScore} | Top Score: {topScore}</li>
-                </ul>
-            </nav>
-        </div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <ul className="navbar-nav">
+                <li className="navbar-brand"><a href="/">Clicky Game</a></li>
+                <li className="nav-item">{userGuess}</li>
+                <li>Score: {userScore} | Top Score: {topScore}</li>
+            </ul>
+        </nav>
     )
 
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Grid from './components/Grid.js';
-// import NavBar from './components/Navbar2.js';
+import NavBar from './components/NavBar.js';
 
 
 
@@ -17,8 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <NavBar /> */}
-        QWE
+        <NavBar />
         <Grid handleItemClick={this.handleItemClick} />
       </div>
     );

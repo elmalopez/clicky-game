@@ -7,11 +7,6 @@ const userGuess = (1);
 const userScore = (2);
 const topScore = (3);
 
-// if userGuess {
-// console.log("You guessed correctly!")
-// else ("You guessed incorrectly!")
-//  };
-
 const NavBar = function () {
     return (
         <div>
@@ -28,3 +23,9 @@ const NavBar = function () {
 }
 
 export default NavBar;
+
+
+// if userGuess {
+// console.log("You guessed correctly!")
+// else ("You guessed incorrectly!")
+//  };

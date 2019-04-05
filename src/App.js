@@ -4,8 +4,6 @@ import './App.css';
 import Grid from './components/Grid.js';
 import NavBar from './components/NavBar.js';
 
-
-
 class App extends Component {
   state = {
     count: 0

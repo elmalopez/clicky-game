@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Grid from './components/Grid.js';
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar.js';
 
 
 

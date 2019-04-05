@@ -18,6 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* <NavBar /> */}
+        QWE
         <Grid handleItemClick={this.handleItemClick} />
       </div>
     );
